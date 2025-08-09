@@ -139,6 +139,3 @@ This will create PDF files containing the EICs of unique and common peaks.
 - Adjust parameters (`mzdiff`, `ppm`, `peakwidth`, etc.) as needed for your dataset.
 
 ---
-
-## Contact
-For further questions or troubleshooting, please refer to the package documentation or contact the package maintainers.
