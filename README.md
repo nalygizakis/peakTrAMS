@@ -8,7 +8,7 @@
 
 To use the `peakTrAMS` package, install it as follows:
 
-Install R language and ProteoWizard and place the installation path to global environmental variables.
+Install R language and ProteoWizard and place the installation path to the global environment variables. You can do that by right click on My computer>Advanced system settings>Environment Variables>Variable Path>Edit and add the paths for example: C:\Program Files\R\R-4.4.2\bin and C:\Users\xxxxx\AppData\Local\Apps\ProteoWizard xxxx
 
 ```r
 # install.packages("peakTrAMS")
