@@ -8,8 +8,9 @@
 
 To use the `peakTrAMS` package, install it as follows:
 
+Install R language and ProteoWizard and place the installation path to global environmental variables.
+
 ```r
-# Install from CRAN or GitHub (example, replace with actual source)
 # install.packages("peakTrAMS")
 library(peakTrAMS)
 ```
