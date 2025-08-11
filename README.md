@@ -11,9 +11,15 @@ To use the `peakTrAMS` package, install it as follows:
 Install R language and ProteoWizard and place the installation path to the global environment variables. 
 Detailed instructions: You can do that by right click on My computer>Advanced system settings>Environment Variables>Variable Path>Edit and add the paths for example: C:\Program Files\R\R-4.4.2\bin and C:\Users\xxxxx\AppData\Local\Apps\ProteoWizard xxxx. You have successfully implemented if you can access R and msconvert from commandline (windows key+R>type cmd. A command line prompt will appear. If someone types R, then R must start. Same with msconvert. 
 
+Install mzR, xcms and devtools
+Detailed instructions: R>if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+R>BiocManager::install("mzR")
+R>BiocManager::install("xmcs")
+R>install.packages("devtools")
 
 ```r
-# install.packages("peakTrAMS")
+library("devtools")
+install_github("nalygizakis/peakTrAMS")
 library(peakTrAMS)
 ```
 
