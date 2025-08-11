@@ -14,7 +14,7 @@ Detailed instructions: You can do that by right click on My computer>Advanced sy
 Install mzR, xcms and devtools
 Detailed instructions: R>if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 R>BiocManager::install("mzR")
-R>BiocManager::install("xmcs")
+R>BiocManager::install("xcms")
 R>install.packages("devtools")
 
 ```r
